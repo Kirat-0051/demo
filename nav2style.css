@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Foldit:wght@500&family=Kaushan+Script&family=Lato&family=Rajdhani:wght@700&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Rajdhani;
+}
+
+nav {
+    display: flex;
+    line-height: 80px;
+    margin-left: 129px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 12px;
+    color: black;
+}
+
+.btn {
+    border-width: 3px;
+    margin: 0 160px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s all ease;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 50px;
+}
+
+#arch_span {
+    position: relative;
+    top: 28px;
+    left: -164px;
+    letter-spacing: 8px;
+}
+
+label {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.mainDiv {
+    display: flex;
+    margin-top: 15px;
+    height: 854px;
+    background-image: url(back1.jpg);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+
+#button1 #button2 #button3,
+.span-2 {
+    display: inline;
+    font-size: 30px;
+    line-height: 70px;
+    position: inherit;
+}
+
+.btn2 {
+    display: inline-block;
+}
+
+p {
+    color: white;
+    letter-spacing: 7px;
+    padding-left: 410px;
+    font-size: 8vh;
+    line-height: 150px;
+}
+
+#button1 {
+    background-image: url(neon1.jpg);
+}
+
+#button2 {
+    background-image: url(neon2.jpg);
+}
+
+#button3 {
+    background-image: url(neon5.avif);
+}
+
+.btn2 {
+    background-size: 530px 400px;
+    background-repeat: no-repeat;
+    contain: content;
+    width: 450px;
+    height: 300px;
+    text-align: justify;
+    margin: 75px 0 0 18px;
+    padding: 15px;
+    padding-top: 1px;
+    border: 3px solid rgba(144, 201, 195, 0.724);
+    border-radius: 20px;
+    content-visibility: hidden;
+}
+
+#button1:hover,
+#button2:hover,
+#button3:hover {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    box-sizing: content-box;
+    width: 450px;
+    text-align: justify;
+    cursor: pointer;
+    background-image: none;
+    content-visibility: visible;
+    transition: ease 0.5s;
+}
+
+.material-symbols-outlined {
+    visibility: hidden;
+}
+
+
+@media(max-width:1494px) {
+    nav {
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    label, span{
+        margin-left: 15px;
+    }
+    .material-symbols-outlined {
+        visibility: visible;
+        position: relative;
+    }
+   .btn{
+    position: fixed;
+    left: 280px;
+   }
+
+    nav ul li {
+        visibility: hidden;
+    }
+
+    .btn {
+        width: 100px;
+        height: auto;
+        position: relative;
+        top: -28px;
+    }
+
+    .mainDiv {
+        width: auto;
+        height: auto;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    .material-symbols-outlined {
+        position: relative;
+        left: 110px;
+    }
+}
+
+@media(max-width:1089px) {
+
+    .mainDiv {
+        width: auto;
+        height: auto;
+    }
+    nav ul {
+        margin: auto;
+        padding: auto;
+    }
+    .material-symbols-outlined {
+        position: relative;
+        left: 110px;
+    }
+}
+@media(max-width:1292px)
+{
+    nav{
+        position: fixed;
+     }
+    .mainDiv {
+        width: auto;
+        height: auto;
+        margin-top: 90px;
+    }
+div{
+    align-content: center;
+}
+}
